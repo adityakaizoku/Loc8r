@@ -37,12 +37,12 @@ block content
             .panel-heading
               h2.panel-title Location map
             .panel-body
-              img.img-responsive.img-rounded(src="https://goo.gl/maps/aKjUytEV5nc2CEi97")
+              img.img-responsive.img-rounded(src="https://developers.google.com/static/codelabs/maps-platform/maps-platform-101-js/img/e52623cb8578d625_1440.png")
       .row
         .col-xs-12
           .panel.panel-primary.review-panel
             .panel-heading
-              a.btn.btn-default.pull-right(href="/location/review/new") Add review
+              a.btn.btn-default.pull-right(href="/location/review/new/1") Add review
               h2.panel-title Customer reviews
             .panel-body.review-container
               each review in location.reviews
@@ -58,3 +58,4 @@ block content
     .col-xs-12.col-md-3
       p.lead #{location.name} #{sidebar.context}
       p= sidebar.callToAction
+      

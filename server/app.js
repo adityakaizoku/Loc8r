@@ -39,3 +39,6 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+var routesApi = require('./app_api/routes/index');
+app.use('/api', routesApi);
