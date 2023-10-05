@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 
 var gracefulShutdown;
-var dbURI = 'mongodb://127.0.0.1/Loc8r';
+var dbURI = 'mongodb://127.0.0.1/DHospital';
 if (process.env.NODE_ENV === 'production') {
     dbURI = process.env.MONGODB_URI;
 }
